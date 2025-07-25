@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+asyncpg
+python-dotenv
+python-jose
+redis>=4.2.0
+httpx
+pytest
+pytest-asyncio
+python-multipart
+pydantic[email]

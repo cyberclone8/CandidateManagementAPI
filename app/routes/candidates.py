@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import List, Optional
 from uuid import UUID
-import aioredis
+import redis.asyncio as aioredis
 import json
 
 from app.core.database import get_session

@@ -1,5 +1,5 @@
 import asyncio
-import aioredis
+import redis.asyncio as aioredis
 import json
 from app.utils.redis_lock import acquire_lock, release_lock
 
